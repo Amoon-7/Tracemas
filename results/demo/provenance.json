@@ -1,0 +1,1379 @@
+{
+  "prefix": {
+    "tm": "https://github.com/amoon-le-magnifique/tracemas-audit#"
+  },
+  "entity": {
+    "tm:src:R5": {
+      "tm:kind": "spec",
+      "tm:content": "[R5] The leakage rate shall be at most 50 mL/h. Criticality: C.",
+      "tm:requirement": "R5",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:src:N2": {
+      "tm:kind": "spec",
+      "tm:content": "[N2] General note: this specification applies to hydraulic unit HU-82.",
+      "tm:requirement": null,
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:src:R9": {
+      "tm:kind": "spec",
+      "tm:content": "[R9] The coolant temperature shall be at most 40 \u00b0C. Criticality: B.",
+      "tm:requirement": "R9",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:src:R7": {
+      "tm:kind": "spec",
+      "tm:content": "[R7] The sampling frequency shall be at most 50 Hz. Criticality: A.",
+      "tm:requirement": "R7",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:src:R10": {
+      "tm:kind": "spec",
+      "tm:content": "[R10] The supply voltage shall be at least 25 V. Criticality: A.",
+      "tm:requirement": "R10",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:src:R4": {
+      "tm:kind": "spec",
+      "tm:content": "[R4] The housing stiffness shall be at least 80 kN/mm. Criticality: C.",
+      "tm:requirement": "R4",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:src:R3": {
+      "tm:kind": "spec",
+      "tm:content": "[R3] The efficiency shall be at most 50 %. Criticality: B.",
+      "tm:requirement": "R3",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:src:N1": {
+      "tm:kind": "spec",
+      "tm:content": "[N1] General note: this specification applies to hydraulic unit HU-63.",
+      "tm:requirement": null,
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:src:R6": {
+      "tm:kind": "spec",
+      "tm:content": "[R6] The burst pressure shall be at most 2 bar. Criticality: A.",
+      "tm:requirement": "R6",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:src:R8": {
+      "tm:kind": "spec",
+      "tm:content": "[R8] The response time shall be at least 15 ms. Criticality: A.",
+      "tm:requirement": "R8",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:src:R2": {
+      "tm:kind": "spec",
+      "tm:content": "[R2] The MTBF shall be at most 5 h. Criticality: B.",
+      "tm:requirement": "R2",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:src:R1": {
+      "tm:kind": "spec",
+      "tm:content": "[R1] The power consumption shall be at most 5 W. Criticality: A.",
+      "tm:requirement": "R1",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:des:R2": {
+      "tm:kind": "design",
+      "tm:content": "[D-R2] Measured MTBF: 4.31 h.",
+      "tm:requirement": "R2",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:des:R1": {
+      "tm:kind": "design",
+      "tm:content": "[D-R1] Measured power consumption: 3.78 W.",
+      "tm:requirement": "R1",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:des:R9": {
+      "tm:kind": "design",
+      "tm:content": "[D-R9] Measured coolant temperature: 33.78 \u00b0C.",
+      "tm:requirement": "R9",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:des:R6": {
+      "tm:kind": "design",
+      "tm:content": "[D-R6] Measured burst pressure: 2.38 bar.",
+      "tm:requirement": "R6",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:des:R8": {
+      "tm:kind": "design",
+      "tm:content": "[D-R8] Measured response time: 21.39 ms.",
+      "tm:requirement": "R8",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:des:R7": {
+      "tm:kind": "design",
+      "tm:content": "[D-R7] Measured sampling frequency: 39.2 Hz.",
+      "tm:requirement": "R7",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:des:R5": {
+      "tm:kind": "design",
+      "tm:content": "[D-R5] Measured leakage rate: 57.78 mL/h.",
+      "tm:requirement": "R5",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:des:R3": {
+      "tm:kind": "design",
+      "tm:content": "[D-R3] Measured efficiency: 32.7 %.",
+      "tm:requirement": "R3",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:des:R4": {
+      "tm:kind": "design",
+      "tm:content": "[D-R4] Measured housing stiffness: 90.05 kN/mm.",
+      "tm:requirement": "R4",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:des:R10": {
+      "tm:kind": "design",
+      "tm:content": "[D-R10] Measured supply voltage: 28.55 V.",
+      "tm:requirement": "R10",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:pol": {
+      "tm:kind": "policy",
+      "tm:content": {
+        "reject_on": [
+          "A",
+          "B"
+        ]
+      },
+      "tm:requirement": null,
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:req:R5": {
+      "tm:kind": "req",
+      "tm:content": {
+        "rid": "R5",
+        "param": "leakage rate",
+        "op": "<=",
+        "thr": 50.0,
+        "unit": "mL/h",
+        "crit": "C"
+      },
+      "tm:requirement": "R5",
+      "tm:criticality": "C",
+      "tm:perturbed": null,
+      "tm:claim_status": "UNCHALLENGED"
+    },
+    "tm:req:R9": {
+      "tm:kind": "req",
+      "tm:content": {
+        "rid": "R9",
+        "param": "coolant temperature",
+        "op": "<=",
+        "thr": 40.0,
+        "unit": "\u00b0C",
+        "crit": "B"
+      },
+      "tm:requirement": "R9",
+      "tm:criticality": "B",
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:req:R7": {
+      "tm:kind": "req",
+      "tm:content": {
+        "rid": "R7",
+        "param": "sampling frequency",
+        "op": "<=",
+        "thr": 50.0,
+        "unit": "Hz",
+        "crit": "A"
+      },
+      "tm:requirement": "R7",
+      "tm:criticality": "A",
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:req:R10": {
+      "tm:kind": "req",
+      "tm:content": {
+        "rid": "R10",
+        "param": "supply voltage",
+        "op": ">=",
+        "thr": 25.0,
+        "unit": "V",
+        "crit": "A"
+      },
+      "tm:requirement": "R10",
+      "tm:criticality": "A",
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:req:R4": {
+      "tm:kind": "req",
+      "tm:content": {
+        "rid": "R4",
+        "param": "housing stiffness",
+        "op": ">=",
+        "thr": 80.0,
+        "unit": "kN/mm",
+        "crit": "C"
+      },
+      "tm:requirement": "R4",
+      "tm:criticality": "C",
+      "tm:perturbed": null,
+      "tm:claim_status": "UNCHALLENGED"
+    },
+    "tm:req:R3": {
+      "tm:kind": "req",
+      "tm:content": {
+        "rid": "R3",
+        "param": "efficiency",
+        "op": "<=",
+        "thr": 50.0,
+        "unit": "%",
+        "crit": "B"
+      },
+      "tm:requirement": "R3",
+      "tm:criticality": "B",
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:req:R6": {
+      "tm:kind": "req",
+      "tm:content": {
+        "rid": "R6",
+        "param": "burst pressure",
+        "op": "<=",
+        "thr": 3.09,
+        "unit": "bar",
+        "crit": "A"
+      },
+      "tm:requirement": "R6",
+      "tm:criticality": "A",
+      "tm:perturbed": "inject",
+      "tm:claim_status": "REFUTED"
+    },
+    "tm:req:R8": {
+      "tm:kind": "req",
+      "tm:content": {
+        "rid": "R8",
+        "param": "response time",
+        "op": ">=",
+        "thr": 15.0,
+        "unit": "ms",
+        "crit": "A"
+      },
+      "tm:requirement": "R8",
+      "tm:criticality": "A",
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:req:R2": {
+      "tm:kind": "req",
+      "tm:content": {
+        "rid": "R2",
+        "param": "MTBF",
+        "op": "<=",
+        "thr": 5.0,
+        "unit": "h",
+        "crit": "B"
+      },
+      "tm:requirement": "R2",
+      "tm:criticality": "B",
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:req:R1": {
+      "tm:kind": "req",
+      "tm:content": {
+        "rid": "R1",
+        "param": "power consumption",
+        "op": "<=",
+        "thr": 5.0,
+        "unit": "W",
+        "crit": "A"
+      },
+      "tm:requirement": "R1",
+      "tm:criticality": "A",
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:val:R5": {
+      "tm:kind": "val",
+      "tm:content": {
+        "value": 57.78
+      },
+      "tm:requirement": "R5",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:val:R9": {
+      "tm:kind": "val",
+      "tm:content": {
+        "value": 33.78
+      },
+      "tm:requirement": "R9",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:val:R7": {
+      "tm:kind": "val",
+      "tm:content": {
+        "value": 39.2
+      },
+      "tm:requirement": "R7",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:val:R10": {
+      "tm:kind": "val",
+      "tm:content": {
+        "value": 28.55
+      },
+      "tm:requirement": "R10",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:val:R4": {
+      "tm:kind": "val",
+      "tm:content": {
+        "value": 90.05
+      },
+      "tm:requirement": "R4",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:val:R3": {
+      "tm:kind": "val",
+      "tm:content": {
+        "value": 32.7
+      },
+      "tm:requirement": "R3",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:val:R6": {
+      "tm:kind": "val",
+      "tm:content": {
+        "value": 2.38
+      },
+      "tm:requirement": "R6",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:val:R8": {
+      "tm:kind": "val",
+      "tm:content": {
+        "value": 21.39
+      },
+      "tm:requirement": "R8",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:val:R2": {
+      "tm:kind": "val",
+      "tm:content": {
+        "value": 4.31
+      },
+      "tm:requirement": "R2",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:val:R1": {
+      "tm:kind": "val",
+      "tm:content": {
+        "value": 3.78
+      },
+      "tm:requirement": "R1",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    },
+    "tm:ver:R5": {
+      "tm:kind": "ver",
+      "tm:content": {
+        "result": "fail"
+      },
+      "tm:requirement": "R5",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": "UNCHALLENGED"
+    },
+    "tm:ver:R9": {
+      "tm:kind": "ver",
+      "tm:content": {
+        "result": "pass"
+      },
+      "tm:requirement": "R9",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:ver:R7": {
+      "tm:kind": "ver",
+      "tm:content": {
+        "result": "pass"
+      },
+      "tm:requirement": "R7",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:ver:R10": {
+      "tm:kind": "ver",
+      "tm:content": {
+        "result": "pass"
+      },
+      "tm:requirement": "R10",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:ver:R4": {
+      "tm:kind": "ver",
+      "tm:content": {
+        "result": "pass"
+      },
+      "tm:requirement": "R4",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": "UNCHALLENGED"
+    },
+    "tm:ver:R3": {
+      "tm:kind": "ver",
+      "tm:content": {
+        "result": "pass"
+      },
+      "tm:requirement": "R3",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:ver:R6": {
+      "tm:kind": "ver",
+      "tm:content": {
+        "result": "pass"
+      },
+      "tm:requirement": "R6",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:ver:R8": {
+      "tm:kind": "ver",
+      "tm:content": {
+        "result": "pass"
+      },
+      "tm:requirement": "R8",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:ver:R2": {
+      "tm:kind": "ver",
+      "tm:content": {
+        "result": "pass"
+      },
+      "tm:requirement": "R2",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:ver:R1": {
+      "tm:kind": "ver",
+      "tm:content": {
+        "result": "pass"
+      },
+      "tm:requirement": "R1",
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": "VERIFIED"
+    },
+    "tm:dec:final": {
+      "tm:kind": "decision",
+      "tm:content": {
+        "verdict": "ACCEPT",
+        "cited_rids": [
+          "R1",
+          "R10",
+          "R2",
+          "R3",
+          "R6",
+          "R7",
+          "R8",
+          "R9"
+        ]
+      },
+      "tm:requirement": null,
+      "tm:criticality": null,
+      "tm:perturbed": null,
+      "tm:claim_status": null
+    }
+  },
+  "activity": {
+    "tm:act:src:R5": {
+      "tm:task": "read"
+    },
+    "tm:act:src:N2": {
+      "tm:task": "read"
+    },
+    "tm:act:src:R9": {
+      "tm:task": "read"
+    },
+    "tm:act:src:R7": {
+      "tm:task": "read"
+    },
+    "tm:act:src:R10": {
+      "tm:task": "read"
+    },
+    "tm:act:src:R4": {
+      "tm:task": "read"
+    },
+    "tm:act:src:R3": {
+      "tm:task": "read"
+    },
+    "tm:act:src:N1": {
+      "tm:task": "read"
+    },
+    "tm:act:src:R6": {
+      "tm:task": "read"
+    },
+    "tm:act:src:R8": {
+      "tm:task": "read"
+    },
+    "tm:act:src:R2": {
+      "tm:task": "read"
+    },
+    "tm:act:src:R1": {
+      "tm:task": "read"
+    },
+    "tm:act:des:R2": {
+      "tm:task": "read"
+    },
+    "tm:act:des:R1": {
+      "tm:task": "read"
+    },
+    "tm:act:des:R9": {
+      "tm:task": "read"
+    },
+    "tm:act:des:R6": {
+      "tm:task": "read"
+    },
+    "tm:act:des:R8": {
+      "tm:task": "read"
+    },
+    "tm:act:des:R7": {
+      "tm:task": "read"
+    },
+    "tm:act:des:R5": {
+      "tm:task": "read"
+    },
+    "tm:act:des:R3": {
+      "tm:task": "read"
+    },
+    "tm:act:des:R4": {
+      "tm:task": "read"
+    },
+    "tm:act:des:R10": {
+      "tm:task": "read"
+    },
+    "tm:act:pol": {
+      "tm:task": "read"
+    },
+    "tm:act:req:R5": {
+      "tm:task": "extract"
+    },
+    "tm:act:req:R9": {
+      "tm:task": "extract"
+    },
+    "tm:act:req:R7": {
+      "tm:task": "extract"
+    },
+    "tm:act:req:R10": {
+      "tm:task": "extract"
+    },
+    "tm:act:req:R4": {
+      "tm:task": "extract"
+    },
+    "tm:act:req:R3": {
+      "tm:task": "extract"
+    },
+    "tm:act:req:R6": {
+      "tm:task": "extract"
+    },
+    "tm:act:req:R8": {
+      "tm:task": "extract"
+    },
+    "tm:act:req:R2": {
+      "tm:task": "extract"
+    },
+    "tm:act:req:R1": {
+      "tm:task": "extract"
+    },
+    "tm:act:val:R5": {
+      "tm:task": "read_value"
+    },
+    "tm:act:val:R9": {
+      "tm:task": "read_value"
+    },
+    "tm:act:val:R7": {
+      "tm:task": "read_value"
+    },
+    "tm:act:val:R10": {
+      "tm:task": "read_value"
+    },
+    "tm:act:val:R4": {
+      "tm:task": "read_value"
+    },
+    "tm:act:val:R3": {
+      "tm:task": "read_value"
+    },
+    "tm:act:val:R6": {
+      "tm:task": "read_value"
+    },
+    "tm:act:val:R8": {
+      "tm:task": "read_value"
+    },
+    "tm:act:val:R2": {
+      "tm:task": "read_value"
+    },
+    "tm:act:val:R1": {
+      "tm:task": "read_value"
+    },
+    "tm:act:ver:R5": {
+      "tm:task": "verify"
+    },
+    "tm:act:ver:R9": {
+      "tm:task": "verify"
+    },
+    "tm:act:ver:R7": {
+      "tm:task": "verify"
+    },
+    "tm:act:ver:R10": {
+      "tm:task": "verify"
+    },
+    "tm:act:ver:R4": {
+      "tm:task": "verify"
+    },
+    "tm:act:ver:R3": {
+      "tm:task": "verify"
+    },
+    "tm:act:ver:R6": {
+      "tm:task": "verify"
+    },
+    "tm:act:ver:R8": {
+      "tm:task": "verify"
+    },
+    "tm:act:ver:R2": {
+      "tm:task": "verify"
+    },
+    "tm:act:ver:R1": {
+      "tm:task": "verify"
+    },
+    "tm:act:dec:final": {
+      "tm:task": "decide"
+    }
+  },
+  "agent": {
+    "tm:agent:input": {},
+    "tm:agent:extractor": {},
+    "tm:agent:reader": {},
+    "tm:agent:verifier": {},
+    "tm:agent:decider": {}
+  },
+  "used": {
+    "_:u:req:R5:0": {
+      "prov:activity": "tm:act:req:R5",
+      "prov:entity": "tm:src:R5"
+    },
+    "_:u:req:R9:0": {
+      "prov:activity": "tm:act:req:R9",
+      "prov:entity": "tm:src:R9"
+    },
+    "_:u:req:R7:0": {
+      "prov:activity": "tm:act:req:R7",
+      "prov:entity": "tm:src:R7"
+    },
+    "_:u:req:R10:0": {
+      "prov:activity": "tm:act:req:R10",
+      "prov:entity": "tm:src:R10"
+    },
+    "_:u:req:R4:0": {
+      "prov:activity": "tm:act:req:R4",
+      "prov:entity": "tm:src:R4"
+    },
+    "_:u:req:R3:0": {
+      "prov:activity": "tm:act:req:R3",
+      "prov:entity": "tm:src:R3"
+    },
+    "_:u:req:R6:0": {
+      "prov:activity": "tm:act:req:R6",
+      "prov:entity": "tm:src:R6"
+    },
+    "_:u:req:R8:0": {
+      "prov:activity": "tm:act:req:R8",
+      "prov:entity": "tm:src:R8"
+    },
+    "_:u:req:R2:0": {
+      "prov:activity": "tm:act:req:R2",
+      "prov:entity": "tm:src:R2"
+    },
+    "_:u:req:R1:0": {
+      "prov:activity": "tm:act:req:R1",
+      "prov:entity": "tm:src:R1"
+    },
+    "_:u:val:R5:0": {
+      "prov:activity": "tm:act:val:R5",
+      "prov:entity": "tm:des:R5"
+    },
+    "_:u:val:R9:0": {
+      "prov:activity": "tm:act:val:R9",
+      "prov:entity": "tm:des:R9"
+    },
+    "_:u:val:R7:0": {
+      "prov:activity": "tm:act:val:R7",
+      "prov:entity": "tm:des:R7"
+    },
+    "_:u:val:R10:0": {
+      "prov:activity": "tm:act:val:R10",
+      "prov:entity": "tm:des:R10"
+    },
+    "_:u:val:R4:0": {
+      "prov:activity": "tm:act:val:R4",
+      "prov:entity": "tm:des:R4"
+    },
+    "_:u:val:R3:0": {
+      "prov:activity": "tm:act:val:R3",
+      "prov:entity": "tm:des:R3"
+    },
+    "_:u:val:R6:0": {
+      "prov:activity": "tm:act:val:R6",
+      "prov:entity": "tm:des:R6"
+    },
+    "_:u:val:R8:0": {
+      "prov:activity": "tm:act:val:R8",
+      "prov:entity": "tm:des:R8"
+    },
+    "_:u:val:R2:0": {
+      "prov:activity": "tm:act:val:R2",
+      "prov:entity": "tm:des:R2"
+    },
+    "_:u:val:R1:0": {
+      "prov:activity": "tm:act:val:R1",
+      "prov:entity": "tm:des:R1"
+    },
+    "_:u:ver:R5:0": {
+      "prov:activity": "tm:act:ver:R5",
+      "prov:entity": "tm:req:R5"
+    },
+    "_:u:ver:R5:1": {
+      "prov:activity": "tm:act:ver:R5",
+      "prov:entity": "tm:val:R5"
+    },
+    "_:u:ver:R9:0": {
+      "prov:activity": "tm:act:ver:R9",
+      "prov:entity": "tm:req:R9"
+    },
+    "_:u:ver:R9:1": {
+      "prov:activity": "tm:act:ver:R9",
+      "prov:entity": "tm:val:R9"
+    },
+    "_:u:ver:R7:0": {
+      "prov:activity": "tm:act:ver:R7",
+      "prov:entity": "tm:req:R7"
+    },
+    "_:u:ver:R7:1": {
+      "prov:activity": "tm:act:ver:R7",
+      "prov:entity": "tm:val:R7"
+    },
+    "_:u:ver:R10:0": {
+      "prov:activity": "tm:act:ver:R10",
+      "prov:entity": "tm:req:R10"
+    },
+    "_:u:ver:R10:1": {
+      "prov:activity": "tm:act:ver:R10",
+      "prov:entity": "tm:val:R10"
+    },
+    "_:u:ver:R4:0": {
+      "prov:activity": "tm:act:ver:R4",
+      "prov:entity": "tm:req:R4"
+    },
+    "_:u:ver:R4:1": {
+      "prov:activity": "tm:act:ver:R4",
+      "prov:entity": "tm:val:R4"
+    },
+    "_:u:ver:R3:0": {
+      "prov:activity": "tm:act:ver:R3",
+      "prov:entity": "tm:req:R3"
+    },
+    "_:u:ver:R3:1": {
+      "prov:activity": "tm:act:ver:R3",
+      "prov:entity": "tm:val:R3"
+    },
+    "_:u:ver:R6:0": {
+      "prov:activity": "tm:act:ver:R6",
+      "prov:entity": "tm:req:R6"
+    },
+    "_:u:ver:R6:1": {
+      "prov:activity": "tm:act:ver:R6",
+      "prov:entity": "tm:val:R6"
+    },
+    "_:u:ver:R8:0": {
+      "prov:activity": "tm:act:ver:R8",
+      "prov:entity": "tm:req:R8"
+    },
+    "_:u:ver:R8:1": {
+      "prov:activity": "tm:act:ver:R8",
+      "prov:entity": "tm:val:R8"
+    },
+    "_:u:ver:R2:0": {
+      "prov:activity": "tm:act:ver:R2",
+      "prov:entity": "tm:req:R2"
+    },
+    "_:u:ver:R2:1": {
+      "prov:activity": "tm:act:ver:R2",
+      "prov:entity": "tm:val:R2"
+    },
+    "_:u:ver:R1:0": {
+      "prov:activity": "tm:act:ver:R1",
+      "prov:entity": "tm:req:R1"
+    },
+    "_:u:ver:R1:1": {
+      "prov:activity": "tm:act:ver:R1",
+      "prov:entity": "tm:val:R1"
+    },
+    "_:u:dec:final:0": {
+      "prov:activity": "tm:act:dec:final",
+      "prov:entity": "tm:ver:R5"
+    },
+    "_:u:dec:final:1": {
+      "prov:activity": "tm:act:dec:final",
+      "prov:entity": "tm:ver:R9"
+    },
+    "_:u:dec:final:2": {
+      "prov:activity": "tm:act:dec:final",
+      "prov:entity": "tm:ver:R7"
+    },
+    "_:u:dec:final:3": {
+      "prov:activity": "tm:act:dec:final",
+      "prov:entity": "tm:ver:R10"
+    },
+    "_:u:dec:final:4": {
+      "prov:activity": "tm:act:dec:final",
+      "prov:entity": "tm:ver:R4"
+    },
+    "_:u:dec:final:5": {
+      "prov:activity": "tm:act:dec:final",
+      "prov:entity": "tm:ver:R3"
+    },
+    "_:u:dec:final:6": {
+      "prov:activity": "tm:act:dec:final",
+      "prov:entity": "tm:ver:R6"
+    },
+    "_:u:dec:final:7": {
+      "prov:activity": "tm:act:dec:final",
+      "prov:entity": "tm:ver:R8"
+    },
+    "_:u:dec:final:8": {
+      "prov:activity": "tm:act:dec:final",
+      "prov:entity": "tm:ver:R2"
+    },
+    "_:u:dec:final:9": {
+      "prov:activity": "tm:act:dec:final",
+      "prov:entity": "tm:ver:R1"
+    },
+    "_:u:dec:final:10": {
+      "prov:activity": "tm:act:dec:final",
+      "prov:entity": "tm:pol"
+    }
+  },
+  "wasGeneratedBy": {
+    "_:g:src:R5": {
+      "prov:entity": "tm:src:R5",
+      "prov:activity": "tm:act:src:R5"
+    },
+    "_:g:src:N2": {
+      "prov:entity": "tm:src:N2",
+      "prov:activity": "tm:act:src:N2"
+    },
+    "_:g:src:R9": {
+      "prov:entity": "tm:src:R9",
+      "prov:activity": "tm:act:src:R9"
+    },
+    "_:g:src:R7": {
+      "prov:entity": "tm:src:R7",
+      "prov:activity": "tm:act:src:R7"
+    },
+    "_:g:src:R10": {
+      "prov:entity": "tm:src:R10",
+      "prov:activity": "tm:act:src:R10"
+    },
+    "_:g:src:R4": {
+      "prov:entity": "tm:src:R4",
+      "prov:activity": "tm:act:src:R4"
+    },
+    "_:g:src:R3": {
+      "prov:entity": "tm:src:R3",
+      "prov:activity": "tm:act:src:R3"
+    },
+    "_:g:src:N1": {
+      "prov:entity": "tm:src:N1",
+      "prov:activity": "tm:act:src:N1"
+    },
+    "_:g:src:R6": {
+      "prov:entity": "tm:src:R6",
+      "prov:activity": "tm:act:src:R6"
+    },
+    "_:g:src:R8": {
+      "prov:entity": "tm:src:R8",
+      "prov:activity": "tm:act:src:R8"
+    },
+    "_:g:src:R2": {
+      "prov:entity": "tm:src:R2",
+      "prov:activity": "tm:act:src:R2"
+    },
+    "_:g:src:R1": {
+      "prov:entity": "tm:src:R1",
+      "prov:activity": "tm:act:src:R1"
+    },
+    "_:g:des:R2": {
+      "prov:entity": "tm:des:R2",
+      "prov:activity": "tm:act:des:R2"
+    },
+    "_:g:des:R1": {
+      "prov:entity": "tm:des:R1",
+      "prov:activity": "tm:act:des:R1"
+    },
+    "_:g:des:R9": {
+      "prov:entity": "tm:des:R9",
+      "prov:activity": "tm:act:des:R9"
+    },
+    "_:g:des:R6": {
+      "prov:entity": "tm:des:R6",
+      "prov:activity": "tm:act:des:R6"
+    },
+    "_:g:des:R8": {
+      "prov:entity": "tm:des:R8",
+      "prov:activity": "tm:act:des:R8"
+    },
+    "_:g:des:R7": {
+      "prov:entity": "tm:des:R7",
+      "prov:activity": "tm:act:des:R7"
+    },
+    "_:g:des:R5": {
+      "prov:entity": "tm:des:R5",
+      "prov:activity": "tm:act:des:R5"
+    },
+    "_:g:des:R3": {
+      "prov:entity": "tm:des:R3",
+      "prov:activity": "tm:act:des:R3"
+    },
+    "_:g:des:R4": {
+      "prov:entity": "tm:des:R4",
+      "prov:activity": "tm:act:des:R4"
+    },
+    "_:g:des:R10": {
+      "prov:entity": "tm:des:R10",
+      "prov:activity": "tm:act:des:R10"
+    },
+    "_:g:pol": {
+      "prov:entity": "tm:pol",
+      "prov:activity": "tm:act:pol"
+    },
+    "_:g:req:R5": {
+      "prov:entity": "tm:req:R5",
+      "prov:activity": "tm:act:req:R5"
+    },
+    "_:g:req:R9": {
+      "prov:entity": "tm:req:R9",
+      "prov:activity": "tm:act:req:R9"
+    },
+    "_:g:req:R7": {
+      "prov:entity": "tm:req:R7",
+      "prov:activity": "tm:act:req:R7"
+    },
+    "_:g:req:R10": {
+      "prov:entity": "tm:req:R10",
+      "prov:activity": "tm:act:req:R10"
+    },
+    "_:g:req:R4": {
+      "prov:entity": "tm:req:R4",
+      "prov:activity": "tm:act:req:R4"
+    },
+    "_:g:req:R3": {
+      "prov:entity": "tm:req:R3",
+      "prov:activity": "tm:act:req:R3"
+    },
+    "_:g:req:R6": {
+      "prov:entity": "tm:req:R6",
+      "prov:activity": "tm:act:req:R6"
+    },
+    "_:g:req:R8": {
+      "prov:entity": "tm:req:R8",
+      "prov:activity": "tm:act:req:R8"
+    },
+    "_:g:req:R2": {
+      "prov:entity": "tm:req:R2",
+      "prov:activity": "tm:act:req:R2"
+    },
+    "_:g:req:R1": {
+      "prov:entity": "tm:req:R1",
+      "prov:activity": "tm:act:req:R1"
+    },
+    "_:g:val:R5": {
+      "prov:entity": "tm:val:R5",
+      "prov:activity": "tm:act:val:R5"
+    },
+    "_:g:val:R9": {
+      "prov:entity": "tm:val:R9",
+      "prov:activity": "tm:act:val:R9"
+    },
+    "_:g:val:R7": {
+      "prov:entity": "tm:val:R7",
+      "prov:activity": "tm:act:val:R7"
+    },
+    "_:g:val:R10": {
+      "prov:entity": "tm:val:R10",
+      "prov:activity": "tm:act:val:R10"
+    },
+    "_:g:val:R4": {
+      "prov:entity": "tm:val:R4",
+      "prov:activity": "tm:act:val:R4"
+    },
+    "_:g:val:R3": {
+      "prov:entity": "tm:val:R3",
+      "prov:activity": "tm:act:val:R3"
+    },
+    "_:g:val:R6": {
+      "prov:entity": "tm:val:R6",
+      "prov:activity": "tm:act:val:R6"
+    },
+    "_:g:val:R8": {
+      "prov:entity": "tm:val:R8",
+      "prov:activity": "tm:act:val:R8"
+    },
+    "_:g:val:R2": {
+      "prov:entity": "tm:val:R2",
+      "prov:activity": "tm:act:val:R2"
+    },
+    "_:g:val:R1": {
+      "prov:entity": "tm:val:R1",
+      "prov:activity": "tm:act:val:R1"
+    },
+    "_:g:ver:R5": {
+      "prov:entity": "tm:ver:R5",
+      "prov:activity": "tm:act:ver:R5"
+    },
+    "_:g:ver:R9": {
+      "prov:entity": "tm:ver:R9",
+      "prov:activity": "tm:act:ver:R9"
+    },
+    "_:g:ver:R7": {
+      "prov:entity": "tm:ver:R7",
+      "prov:activity": "tm:act:ver:R7"
+    },
+    "_:g:ver:R10": {
+      "prov:entity": "tm:ver:R10",
+      "prov:activity": "tm:act:ver:R10"
+    },
+    "_:g:ver:R4": {
+      "prov:entity": "tm:ver:R4",
+      "prov:activity": "tm:act:ver:R4"
+    },
+    "_:g:ver:R3": {
+      "prov:entity": "tm:ver:R3",
+      "prov:activity": "tm:act:ver:R3"
+    },
+    "_:g:ver:R6": {
+      "prov:entity": "tm:ver:R6",
+      "prov:activity": "tm:act:ver:R6"
+    },
+    "_:g:ver:R8": {
+      "prov:entity": "tm:ver:R8",
+      "prov:activity": "tm:act:ver:R8"
+    },
+    "_:g:ver:R2": {
+      "prov:entity": "tm:ver:R2",
+      "prov:activity": "tm:act:ver:R2"
+    },
+    "_:g:ver:R1": {
+      "prov:entity": "tm:ver:R1",
+      "prov:activity": "tm:act:ver:R1"
+    },
+    "_:g:dec:final": {
+      "prov:entity": "tm:dec:final",
+      "prov:activity": "tm:act:dec:final"
+    }
+  },
+  "wasAssociatedWith": {
+    "_:a:src:R5": {
+      "prov:activity": "tm:act:src:R5",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:src:N2": {
+      "prov:activity": "tm:act:src:N2",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:src:R9": {
+      "prov:activity": "tm:act:src:R9",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:src:R7": {
+      "prov:activity": "tm:act:src:R7",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:src:R10": {
+      "prov:activity": "tm:act:src:R10",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:src:R4": {
+      "prov:activity": "tm:act:src:R4",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:src:R3": {
+      "prov:activity": "tm:act:src:R3",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:src:N1": {
+      "prov:activity": "tm:act:src:N1",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:src:R6": {
+      "prov:activity": "tm:act:src:R6",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:src:R8": {
+      "prov:activity": "tm:act:src:R8",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:src:R2": {
+      "prov:activity": "tm:act:src:R2",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:src:R1": {
+      "prov:activity": "tm:act:src:R1",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:des:R2": {
+      "prov:activity": "tm:act:des:R2",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:des:R1": {
+      "prov:activity": "tm:act:des:R1",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:des:R9": {
+      "prov:activity": "tm:act:des:R9",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:des:R6": {
+      "prov:activity": "tm:act:des:R6",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:des:R8": {
+      "prov:activity": "tm:act:des:R8",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:des:R7": {
+      "prov:activity": "tm:act:des:R7",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:des:R5": {
+      "prov:activity": "tm:act:des:R5",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:des:R3": {
+      "prov:activity": "tm:act:des:R3",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:des:R4": {
+      "prov:activity": "tm:act:des:R4",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:des:R10": {
+      "prov:activity": "tm:act:des:R10",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:pol": {
+      "prov:activity": "tm:act:pol",
+      "prov:agent": "tm:agent:input"
+    },
+    "_:a:req:R5": {
+      "prov:activity": "tm:act:req:R5",
+      "prov:agent": "tm:agent:extractor"
+    },
+    "_:a:req:R9": {
+      "prov:activity": "tm:act:req:R9",
+      "prov:agent": "tm:agent:extractor"
+    },
+    "_:a:req:R7": {
+      "prov:activity": "tm:act:req:R7",
+      "prov:agent": "tm:agent:extractor"
+    },
+    "_:a:req:R10": {
+      "prov:activity": "tm:act:req:R10",
+      "prov:agent": "tm:agent:extractor"
+    },
+    "_:a:req:R4": {
+      "prov:activity": "tm:act:req:R4",
+      "prov:agent": "tm:agent:extractor"
+    },
+    "_:a:req:R3": {
+      "prov:activity": "tm:act:req:R3",
+      "prov:agent": "tm:agent:extractor"
+    },
+    "_:a:req:R6": {
+      "prov:activity": "tm:act:req:R6",
+      "prov:agent": "tm:agent:extractor"
+    },
+    "_:a:req:R8": {
+      "prov:activity": "tm:act:req:R8",
+      "prov:agent": "tm:agent:extractor"
+    },
+    "_:a:req:R2": {
+      "prov:activity": "tm:act:req:R2",
+      "prov:agent": "tm:agent:extractor"
+    },
+    "_:a:req:R1": {
+      "prov:activity": "tm:act:req:R1",
+      "prov:agent": "tm:agent:extractor"
+    },
+    "_:a:val:R5": {
+      "prov:activity": "tm:act:val:R5",
+      "prov:agent": "tm:agent:reader"
+    },
+    "_:a:val:R9": {
+      "prov:activity": "tm:act:val:R9",
+      "prov:agent": "tm:agent:reader"
+    },
+    "_:a:val:R7": {
+      "prov:activity": "tm:act:val:R7",
+      "prov:agent": "tm:agent:reader"
+    },
+    "_:a:val:R10": {
+      "prov:activity": "tm:act:val:R10",
+      "prov:agent": "tm:agent:reader"
+    },
+    "_:a:val:R4": {
+      "prov:activity": "tm:act:val:R4",
+      "prov:agent": "tm:agent:reader"
+    },
+    "_:a:val:R3": {
+      "prov:activity": "tm:act:val:R3",
+      "prov:agent": "tm:agent:reader"
+    },
+    "_:a:val:R6": {
+      "prov:activity": "tm:act:val:R6",
+      "prov:agent": "tm:agent:reader"
+    },
+    "_:a:val:R8": {
+      "prov:activity": "tm:act:val:R8",
+      "prov:agent": "tm:agent:reader"
+    },
+    "_:a:val:R2": {
+      "prov:activity": "tm:act:val:R2",
+      "prov:agent": "tm:agent:reader"
+    },
+    "_:a:val:R1": {
+      "prov:activity": "tm:act:val:R1",
+      "prov:agent": "tm:agent:reader"
+    },
+    "_:a:ver:R5": {
+      "prov:activity": "tm:act:ver:R5",
+      "prov:agent": "tm:agent:verifier"
+    },
+    "_:a:ver:R9": {
+      "prov:activity": "tm:act:ver:R9",
+      "prov:agent": "tm:agent:verifier"
+    },
+    "_:a:ver:R7": {
+      "prov:activity": "tm:act:ver:R7",
+      "prov:agent": "tm:agent:verifier"
+    },
+    "_:a:ver:R10": {
+      "prov:activity": "tm:act:ver:R10",
+      "prov:agent": "tm:agent:verifier"
+    },
+    "_:a:ver:R4": {
+      "prov:activity": "tm:act:ver:R4",
+      "prov:agent": "tm:agent:verifier"
+    },
+    "_:a:ver:R3": {
+      "prov:activity": "tm:act:ver:R3",
+      "prov:agent": "tm:agent:verifier"
+    },
+    "_:a:ver:R6": {
+      "prov:activity": "tm:act:ver:R6",
+      "prov:agent": "tm:agent:verifier"
+    },
+    "_:a:ver:R8": {
+      "prov:activity": "tm:act:ver:R8",
+      "prov:agent": "tm:agent:verifier"
+    },
+    "_:a:ver:R2": {
+      "prov:activity": "tm:act:ver:R2",
+      "prov:agent": "tm:agent:verifier"
+    },
+    "_:a:ver:R1": {
+      "prov:activity": "tm:act:ver:R1",
+      "prov:agent": "tm:agent:verifier"
+    },
+    "_:a:dec:final": {
+      "prov:activity": "tm:act:dec:final",
+      "prov:agent": "tm:agent:decider"
+    }
+  }
+}

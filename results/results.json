@@ -1,0 +1,138 @@
+{
+  "E1_faithfulness": {
+    "text_justification": {
+      "p": 0.896,
+      "r": 0.843,
+      "f1": 0.837,
+      "exact": 0.792,
+      "replays": 1,
+      "size": 3.875,
+      "f1_ACCEPT": 0.802,
+      "f1_REJECT": 0.879
+    },
+    "provenance_ancestors": {
+      "p": 0.475,
+      "r": 1.0,
+      "f1": 0.579,
+      "exact": 0.0,
+      "replays": 1,
+      "size": 10,
+      "f1_ACCEPT": 0.846,
+      "f1_REJECT": 0.264
+    },
+    "replay_flat": {
+      "p": 0.75,
+      "r": 0.75,
+      "f1": 0.75,
+      "exact": 0.75,
+      "replays": 1734,
+      "size": 4.25,
+      "f1_ACCEPT": 1.0,
+      "f1_REJECT": 0.455
+    },
+    "replay_hier_uniform": {
+      "p": 1.0,
+      "r": 1.0,
+      "f1": 1.0,
+      "exact": 1.0,
+      "replays": 543.917,
+      "size": 4.75,
+      "f1_ACCEPT": 1.0,
+      "f1_REJECT": 1.0
+    },
+    "replay_hier_crit": {
+      "p": 1.0,
+      "r": 1.0,
+      "f1": 1.0,
+      "exact": 1.0,
+      "replays": 512.75,
+      "size": 4.75,
+      "f1_ACCEPT": 1.0,
+      "f1_REJECT": 1.0
+    }
+  },
+  "E2_injection": {
+    "text_justification": {
+      "hit": 0.725,
+      "size": 2.175,
+      "precision_if_hit": 0.561,
+      "replays": 1
+    },
+    "provenance_ancestors": {
+      "hit": 1.0,
+      "size": 10,
+      "precision_if_hit": 0.1,
+      "replays": 1
+    },
+    "replay_flat": {
+      "hit": 1.0,
+      "size": 2.45,
+      "precision_if_hit": 0.806,
+      "replays": 1748
+    },
+    "replay_hier_uniform": {
+      "hit": 1.0,
+      "size": 2.45,
+      "precision_if_hit": 0.806,
+      "replays": 387.75
+    },
+    "replay_hier_crit": {
+      "hit": 1.0,
+      "size": 2.45,
+      "precision_if_hit": 0.806,
+      "replays": 373.05
+    },
+    "dialogue_refutation": {
+      "hit": 1.0,
+      "size": 1.7,
+      "precision_if_hit": 0.729,
+      "replays": 0
+    },
+    "_n_cases": 40
+  },
+  "E3_variability": {
+    "0.0": {
+      "natural_flip_rate_p0": 0.0,
+      "f1": 1.0,
+      "replays": 431.3
+    },
+    "0.5": {
+      "natural_flip_rate_p0": 0.073,
+      "f1": 1.0,
+      "replays": 542.7
+    },
+    "1.0": {
+      "natural_flip_rate_p0": 0.104,
+      "f1": 0.994,
+      "replays": 649.1
+    },
+    "2.0": {
+      "natural_flip_rate_p0": 0.224,
+      "f1": 0.994,
+      "replays": 728
+    },
+    "3.0": {
+      "natural_flip_rate_p0": 0.276,
+      "f1": 0.859,
+      "replays": 676.3
+    }
+  },
+  "E4_dialogue": {
+    "extraction_errors_refuted": 8,
+    "false_refutations": 0,
+    "missed_errors": 7,
+    "recall": 0.533,
+    "recall_by_criticality": {
+      "A": 1.0,
+      "B": 1.0,
+      "C": 0.0
+    },
+    "moves_per_claim_by_criticality": {
+      "A": 7.88,
+      "B": 5.97,
+      "C": 2
+    },
+    "protocol_violations": 0
+  },
+  "note": "Simulated agents with controllable noise; see README for scope and limits."
+}

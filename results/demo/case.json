@@ -1,0 +1,205 @@
+{
+  "case_id": "case-11",
+  "spec": [
+    {
+      "pid": "R5",
+      "text": "[R5] The leakage rate shall be at most 50 mL/h. Criticality: C."
+    },
+    {
+      "pid": "N2",
+      "text": "[N2] General note: this specification applies to hydraulic unit HU-82."
+    },
+    {
+      "pid": "R9",
+      "text": "[R9] The coolant temperature shall be at most 40 \u00b0C. Criticality: B."
+    },
+    {
+      "pid": "R7",
+      "text": "[R7] The sampling frequency shall be at most 50 Hz. Criticality: A."
+    },
+    {
+      "pid": "R10",
+      "text": "[R10] The supply voltage shall be at least 25 V. Criticality: A."
+    },
+    {
+      "pid": "R4",
+      "text": "[R4] The housing stiffness shall be at least 80 kN/mm. Criticality: C."
+    },
+    {
+      "pid": "R3",
+      "text": "[R3] The efficiency shall be at most 50 %. Criticality: B."
+    },
+    {
+      "pid": "N1",
+      "text": "[N1] General note: this specification applies to hydraulic unit HU-63."
+    },
+    {
+      "pid": "R6",
+      "text": "[R6] The burst pressure shall be at most 2 bar. Criticality: A."
+    },
+    {
+      "pid": "R8",
+      "text": "[R8] The response time shall be at least 15 ms. Criticality: A."
+    },
+    {
+      "pid": "R2",
+      "text": "[R2] The MTBF shall be at most 5 h. Criticality: B."
+    },
+    {
+      "pid": "R1",
+      "text": "[R1] The power consumption shall be at most 5 W. Criticality: A."
+    }
+  ],
+  "design": [
+    {
+      "pid": "D-R2",
+      "text": "[D-R2] Measured MTBF: 4.31 h."
+    },
+    {
+      "pid": "D-R1",
+      "text": "[D-R1] Measured power consumption: 3.78 W."
+    },
+    {
+      "pid": "D-R9",
+      "text": "[D-R9] Measured coolant temperature: 33.78 \u00b0C."
+    },
+    {
+      "pid": "D-R6",
+      "text": "[D-R6] Measured burst pressure: 2.38 bar."
+    },
+    {
+      "pid": "D-R8",
+      "text": "[D-R8] Measured response time: 21.39 ms."
+    },
+    {
+      "pid": "D-R7",
+      "text": "[D-R7] Measured sampling frequency: 39.2 Hz."
+    },
+    {
+      "pid": "D-R5",
+      "text": "[D-R5] Measured leakage rate: 57.78 mL/h."
+    },
+    {
+      "pid": "D-R3",
+      "text": "[D-R3] Measured efficiency: 32.7 %."
+    },
+    {
+      "pid": "D-R4",
+      "text": "[D-R4] Measured housing stiffness: 90.05 kN/mm."
+    },
+    {
+      "pid": "D-R10",
+      "text": "[D-R10] Measured supply voltage: 28.55 V."
+    }
+  ],
+  "policy": {
+    "reject_on": [
+      "A",
+      "B"
+    ]
+  },
+  "gold": {
+    "decision": "REJECT",
+    "failing": [
+      "R5",
+      "R6"
+    ],
+    "failing_critical": [
+      "R6"
+    ],
+    "requirements": {
+      "R5": {
+        "rid": "R5",
+        "param": "leakage rate",
+        "unit": "mL/h",
+        "crit": "C",
+        "op": "<=",
+        "thr": 50.0
+      },
+      "R9": {
+        "rid": "R9",
+        "param": "coolant temperature",
+        "unit": "\u00b0C",
+        "crit": "B",
+        "op": "<=",
+        "thr": 40.0
+      },
+      "R7": {
+        "rid": "R7",
+        "param": "sampling frequency",
+        "unit": "Hz",
+        "crit": "A",
+        "op": "<=",
+        "thr": 50.0
+      },
+      "R10": {
+        "rid": "R10",
+        "param": "supply voltage",
+        "unit": "V",
+        "crit": "A",
+        "op": ">=",
+        "thr": 25.0
+      },
+      "R4": {
+        "rid": "R4",
+        "param": "housing stiffness",
+        "unit": "kN/mm",
+        "crit": "C",
+        "op": ">=",
+        "thr": 80.0
+      },
+      "R3": {
+        "rid": "R3",
+        "param": "efficiency",
+        "unit": "%",
+        "crit": "B",
+        "op": "<=",
+        "thr": 50.0
+      },
+      "R6": {
+        "rid": "R6",
+        "param": "burst pressure",
+        "unit": "bar",
+        "crit": "A",
+        "op": "<=",
+        "thr": 2.0
+      },
+      "R8": {
+        "rid": "R8",
+        "param": "response time",
+        "unit": "ms",
+        "crit": "A",
+        "op": ">=",
+        "thr": 15.0
+      },
+      "R2": {
+        "rid": "R2",
+        "param": "MTBF",
+        "unit": "h",
+        "crit": "B",
+        "op": "<=",
+        "thr": 5.0
+      },
+      "R1": {
+        "rid": "R1",
+        "param": "power consumption",
+        "unit": "W",
+        "crit": "A",
+        "op": "<=",
+        "thr": 5.0
+      }
+    },
+    "values": {
+      "R5": 57.78,
+      "R9": 33.78,
+      "R7": 39.2,
+      "R10": 28.55,
+      "R4": 90.05,
+      "R3": 32.7,
+      "R6": 2.38,
+      "R8": 21.39,
+      "R2": 4.31,
+      "R1": 3.78
+    }
+  }
+}

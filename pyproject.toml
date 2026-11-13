@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tracemas-audit"
+version = "0.1.0"
+description = "Replay-verified, requirement-linked explanations for multi-agent LLM chains"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+viz = ["matplotlib"]
+llm = ["anthropic"]
+dev = ["pytest", "matplotlib"]
+
+[project.scripts]
+tracemas = "tracemas.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["tracemas*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
